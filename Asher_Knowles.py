@@ -1,11 +1,8 @@
 #Function 1
 # Returns Area of Rectangle
-#Written by Jaden Wolfe
-def rect_area(length, width):
- return length * width
+
 #Function 2
 # Returns Surface Area of Rectangular Solid
-#Written by Asher Knowles
 def rect_surface_area(length,width,height):
     return(length*width*height)
 # Request the dimension of a solid rectangular object
