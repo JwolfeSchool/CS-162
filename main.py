@@ -7,7 +7,7 @@ def rect_area(length, width):
 # Returns Surface Area of Rectangular Solid
 #Written by Asher Knowles
 def rect_surface_area(length,width,height):
-    return(length*width*height)
+    return 2*((length*width)+(height*length)+(width*height))
 # Request the dimension of a solid rectangular object
 
 length = int(input("Enter the length of the the object as a integer: "))
